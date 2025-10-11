@@ -7,9 +7,9 @@ title: Nelson Lohse
 
 <div class="hero">
   <div class="hero-content">
-    <h1>Hi, I’m Nelson Lohse</h1>
-    <h2>Software Engineer | Problem Solver | Animal Rescue Advocate</h2>
-    <p>Building clean, efficient solutions with C++, Python, and more.</p>
+    <h1>Hello, I’m Nelson Lohse</h1>
+    <h2>Software Engineer</h2>
+    <p>Building clean, efficient solutions with C++, Python, Java and more.</p>
     <div class="hero-buttons">
       <a href="#projects" class="btn">View My Work</a>
       <a href="#contact" class="btn btn-secondary">Contact Me</a>
