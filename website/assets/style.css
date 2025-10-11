@@ -1,5 +1,6 @@
+/* Hero section */
 .hero {
-  min-height: 100vh;           /* full screen */
+  min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -41,6 +42,8 @@
 .btn-secondary:hover {
   background-color: rgba(255,255,255,0.5);
 }
+
+/* Section spacing */
 section {
   padding: 80px 20px;
   text-align: center;
