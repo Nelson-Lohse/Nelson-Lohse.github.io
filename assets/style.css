@@ -1,14 +1,18 @@
 /* Hero section */
 .hero {
-  min-height: 100vh;
+  min-height: 100vh;           /* full viewport height */
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
   background: linear-gradient(135deg, #4e54c8, #8f94fb);
   color: white;
-  padding: 0 20px;
+  padding: 0;                  /* remove any side padding */
+  margin: 0;                   /* remove default margins */
+  width: 100vw;                /* full viewport width */
+  box-sizing: border-box;      /* ensures padding/margin don't shrink it */
 }
+
 .hero h1 {
   font-size: 3rem;
   margin-bottom: 0.5rem;
