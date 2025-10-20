@@ -28,7 +28,7 @@ title: Nelson Lohse
       <div class="project-info">
         <h3>Grazioso</h3>
         <p>
-          Original capstone artifact demonstrating full-stack development, database integration, and user interface design. Built as an initial implementation, it laid the foundation for later improvements in functionality, structure, and user experience.
+          Original artifact.
         </p>
         <a href="https://github.com/Nelson-Lohse/Nelson-Lohse.github.io/tree/main/Grazioso" target="_blank" class="btn">View Project on GitHub</a>
         <a href="Grazioso" class="btn btn-secondary">Explore Folder</a>
