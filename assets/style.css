@@ -150,3 +150,22 @@ section h2 {
   width: 100%;
   height: 100%;
 }
+#narratives {
+  padding: 60px 20px;
+  background-color: #eef2f7; /* subtle contrast from self-assessment */
+  color: #333;
+  text-align: left;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+#narratives h2 {
+  color: #4e54c8;
+  margin-bottom: 20px;
+}
+
+#narratives p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
