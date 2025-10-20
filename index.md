@@ -48,7 +48,7 @@ title: Nelson Lohse
         <a href="https://github.com/Nelson-Lohse/Nelson-Lohse.github.io/tree/main/RescueAnimals" target="_blank" class="btn">View Project on GitHub</a>
         <a href="RescueAnimals" class="btn btn-secondary">Explore Folder</a>
       </div>
-      <img src="assets/rescueanimals.png" alt="RescueAnimals Screenshot">
+      <img src="assets/Screenshot 2025-10-20 002129.png" alt="RescueAnimals Screenshot">
     </div>
 
   </div>
