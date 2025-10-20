@@ -25,7 +25,6 @@ title: Nelson Lohse
   
     <!-- Project 1: Grazioso -->
     <div class="project-card">
-      <img src="assets/grazioso.png" alt="Grazioso Screenshot">
       <div class="project-info">
         <h3>Grazioso</h3>
         <p>
@@ -38,7 +37,6 @@ title: Nelson Lohse
 
     <!-- Project 2: RescueAnimals -->
     <div class="project-card">
-      <img src="assets/rescueanimals.png" alt="RescueAnimals Screenshot">
       <div class="project-info">
         <h3>RescueAnimals</h3>
         <p>
@@ -47,6 +45,7 @@ title: Nelson Lohse
         <a href="RescueAnimals/index.html" class="btn">View Project</a>
         <a href="RescueAnimals" class="btn btn-secondary">Explore Folder</a>
       </div>
+      <img src="assets/rescueanimals.png" alt="RescueAnimals Screenshot">
     </div>
 
   </div>
