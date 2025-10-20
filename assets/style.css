@@ -35,15 +35,17 @@
 
 /* Buttons */
 .btn, .btn-secondary {
-  display: inline-flex;           /* flex container for centering */
-  align-items: center;            /* vertical center */
-  justify-content: center;        /* horizontal center */
+  display: flex;                /* flex container for centering */
+  align-items: center;          /* vertical center */
+  justify-content: center;      /* horizontal center */
   padding: 12px 30px;
+  min-height: 45px;             /* ensures consistent button height */
   border-radius: 6px;
   font-weight: 600;
-  text-decoration: none;          /* remove underline */
-  line-height: 1.2;               /* ensures text vertical alignment */
+  text-decoration: none;        /* remove underline */
+  line-height: normal;          /* prevents extra vertical offset */
   transition: 0.3s;
+  box-sizing: border-box;
 }
 
 .btn {
