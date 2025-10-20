@@ -1,0 +1,32 @@
+/* Container for the monkey form */
+.monkey-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 400px;
+  gap: 12px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+/* Labels inside the monkey form */
+.monkey-form label {
+  font-weight: bold;
+  margin-bottom: 4px;
+  display: block;
+}
+
+/* Input and select fields inside the form */
+.monkey-form input,
+.monkey-form select {
+  padding: 6px;
+  font-size: 14px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Container for the last div (submit button) to center it */
+.monkey-form div:last-child {
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,33 @@
+
+/* Main container for the dog form */
+.dog-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 400px;
+  gap: 12px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+/* Label styling for each input field */
+.dog-form label {
+  font-weight: bold;
+  margin-bottom: 4px;
+  display: block;
+}
+
+/* Shared styling for input and select elements */
+.dog-form input,
+.dog-form select {
+  padding: 6px;
+  font-size: 14px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Center the button container (last div in form) */
+.dog-form div:last-child {
+  display: flex;
+  justify-content: center;
+}

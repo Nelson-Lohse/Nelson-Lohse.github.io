@@ -1,0 +1,82 @@
+
+<form [formGroup]="dogForm" (ngSubmit)="submit()" class="dog-form">
+
+  <!-- Dog Name -->
+  <div>
+    <label for="name">Name:</label>
+    <input id="name" type="text" formControlName="name" />
+  </div>
+
+  <!-- Breed dropdown -->
+  <div>
+    <label for="breed">Breed:</label>
+    <select id="breed" formControlName="breed">
+      <option value="" disabled selected>Select a breed</option>
+      <option *ngFor="let b of breeds" [value]="b">{{ b }}</option>
+    </select>
+  </div>
+
+  <!-- Gender -->
+  <div>
+	<label for="gender">Gender:</label>
+	<select id="gender" formControlName="gender">
+	  <option value="">Select Gender</option>
+	  <option value="Male">Male</option>
+	  <option value="Female">Female</option>
+	</select>
+  </div>
+
+  <!-- Age -->
+  <div>
+    <label for="age">Age:</label>
+    <input id="age" type="number" formControlName="age" />
+  </div>
+
+  <!-- Weight -->
+  <div>
+    <label for="weight">Weight (lbs):</label>
+    <input id="weight" type="number" formControlName="weight" />
+  </div>
+
+  <!-- Acquisition Date -->
+  <div>
+    <label for="acquisitionDate">Acquisition Date:</label>
+    <input id="acquisitionDate" type="date" formControlName="acquisitionDate" />
+  </div>
+
+  <!-- Acquisition Location -->
+  <div>
+    <label for="acquisitionLocation">Acquisition Location:</label>
+    <input id="acquisitionLocation" type="text" formControlName="acquisitionLocation" />
+  </div>
+
+  <!-- Training dropdown -->
+  <div>
+    <label for="trainingStatus">Training Status:</label>
+    <select id="trainingStatus" formControlName="trainingStatus">
+      <option value="" disabled selected>Select training status</option>
+      <option *ngFor="let status of trainingOptions" [value]="status">{{ status }}</option>
+    </select>
+  </div>
+
+  <!-- Reserved (checkbox) -->
+  <div>
+      <label for="reserved">Reserved:</label>
+      <select id="reserved" formControlName="reserved">
+        <option value="" disabled selected>Select reservation status</option>
+        <option [value]="true">Reserved</option>
+        <option [value]="false">Not Reserved</option>
+      </select>
+    </div>
+
+  <!-- In Service Location -->
+  <div>
+    <label for="inServiceLocation">In Service Location:</label>
+    <input id="inServiceLocation" type="text" formControlName="inServiceLocation" />
+  </div>
+
+  <!-- Submit Button -->
+  <div>
+    <button type="submit">Submit</button>
+  </div>
+</form>

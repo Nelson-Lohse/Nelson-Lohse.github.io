@@ -1,0 +1,68 @@
+<div class="dog-list">
+
+  <!-- Page Title -->
+  <h2>Dog List</h2>
+
+  <!-- Loading indicator -->
+  <div *ngIf="isLoading">Loading dogs...</div>
+
+  <!-- Error message display -->
+  <div *ngIf="errorMessage" class="error">{{ errorMessage }}</div>
+
+  <!-- Dog table -->
+  <table *ngIf="!isLoading && dogs.length > 0">
+    <thead>
+      <tr>
+        <!-- Table headers with sortable columns -->
+        <th>Name</th>
+        <th (click)="sortBy('breed')" 
+            [class.sorted-asc]="sortColumn==='breed' && sortDirection==='asc'"
+            [class.sorted-desc]="sortColumn==='breed' && sortDirection==='desc'">
+          Breed
+        </th>
+        <th (click)="sortBy('gender')">Gender</th>
+        <th (click)="sortBy('age')" 
+            [class.sorted-asc]="sortColumn==='age' && sortDirection==='asc'"
+            [class.sorted-desc]="sortColumn==='age' && sortDirection==='desc'">
+          Age
+        </th>
+        <th (click)="sortBy('weight')" 
+            [class.sorted-asc]="sortColumn==='weight' && sortDirection==='asc'"
+            [class.sorted-desc]="sortColumn==='weight' && sortDirection==='desc'">
+          Weight (lbs)
+        </th>
+		<th (click)="sortBy('acquisitionDate')"> Acquisition Date</th>
+        <th>Acquisition Location</th>
+        <th (click)="sortBy('trainingStatus')">Training</th>
+        <th (click)="sortBy('reserved')">Reserved</th>
+        <th (click)="sortBy('inServiceLocation')">In Service</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- Iterate over dogs and display each row -->
+      <tr *ngFor="let dog of dogs">
+        <td>{{ dog.name }}</td>
+        <td>{{ dog.breed }}</td>
+        <td>{{ dog.gender }}</td>
+        <td>{{ dog.age }}</td>
+        <td>{{ dog.weight }}</td>
+		<td>{{ dog.acquisitionDate }}</td>
+        <td>{{ dog.acquisitionLocation }}</td>
+        <td>{{ dog.trainingStatus }}</td>
+        <td>{{ dog.reserved ? 'Yes' : 'No' }}</td>
+        <td>{{ dog.inServiceLocation }}</td>
+        <td>
+          <!-- Edit and Delete buttons for each dog -->
+          <button class="edit-btn" (click)="editDog(dog.id!)">Edit</button>
+          <button class="delete-btn" (click)="deleteDog(dog.id!)">Delete</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- Message when no dogs are available -->
+  <div *ngIf="!isLoading && dogs.length === 0">
+    No dogs available.
+  </div>
+</div>

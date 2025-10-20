@@ -1,0 +1,86 @@
+<div class="monkey-list">
+
+  <!-- Page Title -->
+  <h2>Monkey List</h2>
+
+  <!-- Loading indicator -->
+  <div *ngIf="isLoading">Loading monkeys...</div>
+
+  <!-- Error message display -->
+  <div *ngIf="errorMessage" class="error">{{ errorMessage }}</div>
+
+  <!-- Monkey table -->
+  <table *ngIf="!isLoading && monkeys.length > 0">
+    <thead>
+      <tr>
+        <!-- Table headers with sortable columns -->
+        <th>Name</th>
+        <th (click)="sortBy('species')" 
+            [class.sorted-asc]="sortColumn==='species' && sortDirection==='asc'"
+            [class.sorted-desc]="sortColumn==='species' && sortDirection==='desc'">
+          Species
+        </th>
+        <th (click)="sortBy('gender')">Gender</th>
+        <th (click)="sortBy('age')" 
+            [class.sorted-asc]="sortColumn==='age' && sortDirection==='asc'"
+            [class.sorted-desc]="sortColumn==='age' && sortDirection==='desc'">
+          Age
+        </th>
+        <th (click)="sortBy('weight')" 
+            [class.sorted-asc]="sortColumn==='weight' && sortDirection==='asc'"
+            [class.sorted-desc]="sortColumn==='weight' && sortDirection==='desc'">
+          Weight (lbs)
+        </th>
+        <th (click)="sortBy('height')" 
+            [class.sorted-asc]="sortColumn==='height' && sortDirection==='asc'"
+            [class.sorted-desc]="sortColumn==='height' && sortDirection==='desc'">
+          Height (in)
+        </th>
+        <th (click)="sortBy('tailLength')" 
+            [class.sorted-asc]="sortColumn==='tailLength' && sortDirection==='asc'"
+            [class.sorted-desc]="sortColumn==='tailLength' && sortDirection==='desc'">
+          Tail Length (in)
+        </th>
+        <th (click)="sortBy('bodyLength')" 
+            [class.sorted-asc]="sortColumn==='bodyLength' && sortDirection==='asc'"
+            [class.sorted-desc]="sortColumn==='bodyLength' && sortDirection==='desc'">
+          Body Length (in)
+        </th>
+		<th (click)="sortBy('acquisitionDate')"> Acquisition Date</th>
+        <th> Acquisition Location</th>
+        <th (click)="sortBy('trainingStatus')">Training</th>
+        <th (click)="sortBy('reserved')">Reserved</th>
+        <th (click)="sortBy('inServiceLocation')">In Service</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- Iterate over monkeys and display each row -->
+      <tr *ngFor="let monkey of monkeys">
+        <td>{{ monkey.name }}</td>
+        <td>{{ monkey.species }}</td>
+        <td>{{ monkey.gender }}</td>
+        <td>{{ monkey.age }}</td>
+        <td>{{ monkey.weight }}</td>
+        <td>{{ monkey.height }}</td>
+        <td>{{ monkey.tailLength }}</td>
+        <td>{{ monkey.bodyLength }}</td>
+		<td>{{ monkey.acquisitionDate }}</td>
+        <td>{{ monkey.acquisitionLocation }}</td>
+        <td>{{ monkey.trainingStatus }}</td>
+        <td>{{ monkey.reserved ? 'Yes' : 'No' }}</td>
+        <td>{{ monkey.inServiceLocation }}</td>
+        <td>
+          <!-- Edit and Delete buttons for each monkey -->
+          <button class="edit-btn" (click)="editMonkey(monkey.id!)">Edit</button>
+          <button class="delete-btn" (click)="deleteMonkey(monkey.id!)">Delete</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- Message when no monkeys are available -->
+  <div *ngIf="!isLoading && monkeys.length === 0">
+    No monkeys available.
+  </div>
+</div>

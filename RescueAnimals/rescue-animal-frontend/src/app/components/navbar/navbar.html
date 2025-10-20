@@ -1,0 +1,30 @@
+<!-- Navigation bar for routing between pages -->
+<nav>
+  <!-- Link to the Dog List page -->
+  <a routerLink="/dogs" 
+     routerLinkActive="active" 
+     [routerLinkActiveOptions]="{ exact: true }">
+    Dog List
+  </a>
+
+  <!-- Link to the Add Dog page -->
+  <a routerLink="/add-dog" 
+     routerLinkActive="active" 
+     [routerLinkActiveOptions]="{ exact: true }">
+    Add Dog
+  </a>
+
+  <!-- Link to the Monkey List page -->
+  <a routerLink="/monkeys" 
+     routerLinkActive="active" 
+     [routerLinkActiveOptions]="{ exact: true }">
+    Monkey List
+  </a>
+
+  <!-- Link to the Add Monkey page -->
+  <a routerLink="/add-monkey" 
+     routerLinkActive="active" 
+     [routerLinkActiveOptions]="{ exact: true }">
+    Add Monkey
+  </a>
+</nav>

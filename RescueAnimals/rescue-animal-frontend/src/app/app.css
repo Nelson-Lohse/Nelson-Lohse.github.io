@@ -1,0 +1,6 @@
+
+.header-title {
+  text-align: center;   /* centers the text horizontally */
+  margin-top: 20px;     /* optional: adds space above */
+  margin-bottom: 20px;  /* optional: adds space below */
+}

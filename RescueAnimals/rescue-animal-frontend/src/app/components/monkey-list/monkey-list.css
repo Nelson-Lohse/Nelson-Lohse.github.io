@@ -1,0 +1,105 @@
+/* Container for the monkey list */
+.monkey-list {
+  width: 100%;
+  max-width: 1800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Heading of the list */
+.monkey-list h2 {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+/* Table containing monkey data */
+.monkey-list table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: auto;
+  margin-top: 16px;
+}
+
+/* Table cells and headers */
+th,
+td {
+  border: 1px solid rgb(0, 0, 0);
+  padding: 12px 16px;
+  text-align: center;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+/* Table headers style */
+th {
+  background-color: rgb(128, 128, 128);
+  color: white;
+  cursor: pointer;
+  user-select: none;
+}
+
+/* Alternate row coloring */
+tr:nth-child(even) {
+  background-color: rgb(226, 226, 226);
+}
+
+/* Hover effect for table rows */
+tr:hover {
+  background-color: lightblue;
+  cursor: pointer;
+}
+
+/* Sorting indicators for headers */
+th.sorted-asc::after {
+  content: ' ▲';
+}
+
+th.sorted-desc::after {
+  content: ' ▼';
+}
+
+/* Default button styles */
+button {
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-weight: bold;
+  min-width: 80px;
+}
+
+/* Edit button style */
+button.edit-btn {
+  background-color: #28a745;
+  margin-right: 8px;
+}
+
+button.edit-btn:hover {
+  background-color: #218838;
+}
+
+/* Delete button style */
+button.delete-btn {
+  background-color: #f44336;
+}
+
+button.delete-btn:hover {
+  background-color: #d32f2f;
+}
+
+/* Error messages */
+.error {
+  color: #f44336;
+  text-align: center;
+  padding: 16px;
+  font-weight: bold;
+}
+
+/* Centering for divs using ng-if */
+div[ng-if] {
+  text-align: center;
+  padding: 16px;
+}
