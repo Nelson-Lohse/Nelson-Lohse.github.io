@@ -31,8 +31,8 @@ title: Nelson Lohse
           The artifact I selected is the Rescue Animal project, originally developed in an earlier course as a set of Java files for managing animal data. The initial version relied entirely on in-memory lists to store records, which limited scalability and data persistence. 
         </p>
         <div class="video-container">
-      <iframe width="100%" height="315" src="https://www.youtube.com/embed/Eh_z3YlYzRk" title="Grazioso Demo Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
+          <iframe width="100%" height="315" src="https://www.youtube.com/embed/Eh_z3YlYzRk" title="Grazioso Demo Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
         <a href="https://github.com/Nelson-Lohse/Nelson-Lohse.github.io/tree/main/Grazioso" target="_blank" class="btn">View Project on GitHub</a>
         <a href="Grazioso" class="btn btn-secondary">Explore Folder</a>
       </div>
@@ -51,6 +51,21 @@ title: Nelson Lohse
       </div>
     </div>
 
+  </div>
+</section>
+
+<!-- Course Narratives Section -->
+<section id="narratives">
+  <h2>Course Narratives</h2>
+  <div class="narrative-content">
+    <!-- Copy and paste your narratives here -->
+    <p>
+      Narrative 1: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus...
+    </p>
+    <p>
+      Narrative 2: Integer euismod, odio sit amet dapibus scelerisque, purus enim...
+    </p>
+    <!-- Add more narratives as needed -->
   </div>
 </section>
 
