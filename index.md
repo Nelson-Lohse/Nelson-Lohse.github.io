@@ -60,10 +60,13 @@ title: Nelson Lohse
   <div class="narrative-content">
     <!-- Copy and paste your narratives here -->
     <p>
-      Narrative 1: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus...
+      Narrative 1
     </p>
     <p>
-      Narrative 2: Integer euismod, odio sit amet dapibus scelerisque, purus enim...
+      Narrative 2
+    </p>
+    <p>
+      Narrative 3
     </p>
     <!-- Add more narratives as needed -->
   </div>
