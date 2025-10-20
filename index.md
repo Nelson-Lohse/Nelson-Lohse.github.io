@@ -12,9 +12,38 @@
   </div>
 </div>
 
+<!-- Projects Section -->
 <section id="projects">
   <h2>My Projects</h2>
-  <!-- Add project cards here -->
+  <div class="projects-container">
+  
+    <!-- Project 1: Grazioso -->
+    <div class="project-card">
+      <img src="assets/grazioso.png" alt="Grazioso Screenshot">
+      <div class="project-info">
+        <h3>Grazioso</h3>
+        <p>
+          Original capstone artifact demonstrating full-stack development, database integration, and user interface design. Built as an initial implementation, it laid the foundation for later improvements in functionality, structure, and user experience.
+        </p>
+        <a href="Grazioso/index.html" class="btn">View Project</a>
+        <a href="Grazioso" class="btn btn-secondary">Explore Folder</a>
+      </div>
+    </div>
+
+    <!-- Project 2: RescueAnimals -->
+    <div class="project-card">
+      <img src="assets/rescueanimals.png" alt="RescueAnimals Screenshot">
+      <div class="project-info">
+        <h3>RescueAnimals</h3>
+        <p>
+          Improved version of Grazioso with enhanced features, better modularity, and optimized performance. Includes advanced filtering, search functionality, and a refined user interface for a more efficient and user-friendly experience.
+        </p>
+        <a href="RescueAnimals/index.html" class="btn">View Project</a>
+        <a href="RescueAnimals" class="btn btn-secondary">Explore Folder</a>
+      </div>
+    </div>
+
+  </div>
 </section>
 
 <section id="self-assessment">
