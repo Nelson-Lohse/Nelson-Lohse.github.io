@@ -1,5 +1,11 @@
+---
+layout: default
+title: Nelson Lohse
+---
+
 <link rel="stylesheet" href="assets/style.css">
 
+<!-- Hero Section -->
 <div class="hero">
   <div class="hero-content">
     <h1>Hello, I’m Nelson Lohse</h1>
@@ -46,17 +52,21 @@
   </div>
 </section>
 
+<!-- Professional Self-Assessment Section -->
 <section id="self-assessment">
   <h2>Professional Self-Assessment</h2>
   <p>
     Completing the Computer Science program and developing this ePortfolio has strengthened my skills in software engineering, data structures and algorithms, database management, and security. Through projects in Python, C++, and Java, I’ve learned to design efficient solutions, collaborate effectively in team environments, and communicate technical concepts to stakeholders. For example, in my capstone project, I contributed to a full-stack web application where I implemented backend logic and coordinated with frontend developers to meet project requirements. These experiences have prepared me to enter the computer science field with confidence and competence.
   </p>
   <p>
-    My ePortfolio showcases a technical artifact, from algorithmic problem-solving examples to database-driven applications, demonstrating my ability to integrate knowledge across domains. Each project highlights not only technical skills but also professional qualities like attention to detail, teamwork, and adaptability. By reviewing my portfolio, potential employers can see a clear representation of my strengths, professional goals, and commitment to continuous growth in computer science.
+    My ePortfolio showcases a range of technical artifacts, from algorithmic problem-solving examples to database-driven applications, demonstrating my ability to integrate knowledge across domains. Each project highlights not only technical skills but also professional qualities like attention to detail, teamwork, and adaptability. By reviewing my portfolio, potential employers can see a clear representation of my strengths, professional goals, and commitment to continuous growth in computer science.
   </p>
 </section>
 
+<!-- Contact Section -->
 <section id="contact">
   <h2>Contact Me</h2>
-  <!-- Add email or contact form here -->
+  <p>
+    Feel free to reach out via email: <a href="mailto:nelson@example.com">nelson@example.com</a>
+  </p>
 </section>
