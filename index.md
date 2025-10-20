@@ -28,7 +28,7 @@ title: Nelson Lohse
       <div class="project-info">
         <h3>Grazioso</h3>
         <p>
-          Original artifact.
+          The artifact I selected is the Rescue Animal project, originally developed in an earlier course as a set of Java files for managing animal data. The initial version relied entirely on in-memory lists to store records, which limited scalability and data persistence. 
         </p>
         <a href="https://github.com/Nelson-Lohse/Nelson-Lohse.github.io/tree/main/Grazioso" target="_blank" class="btn">View Project on GitHub</a>
         <a href="Grazioso" class="btn btn-secondary">Explore Folder</a>
