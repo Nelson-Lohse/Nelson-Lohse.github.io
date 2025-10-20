@@ -57,8 +57,6 @@ title: Nelson Lohse
 <!-- Course Narratives Section -->
 <section id="narratives">
   <h2>Course Narratives</h2>
-  <div class="narrative-content">
-    <!-- Copy and paste your narratives here -->
     <p>
       Narrative 1
     </p>
