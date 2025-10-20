@@ -57,3 +57,21 @@ section h2 {
   margin-bottom: 40px;
   color: #4e54c8;
 }
+
+#self-assessment {
+  padding: 60px 20px;
+  background-color: #f5f5f5; /* subtle contrast from hero section */
+  color: #333;
+  text-align: left;
+  max-width: 900px;
+  margin: 0 auto;
+}
+#self-assessment h2 {
+  color: #4e54c8;
+  margin-bottom: 20px;
+}
+#self-assessment p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
