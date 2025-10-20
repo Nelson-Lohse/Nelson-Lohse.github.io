@@ -66,6 +66,6 @@ title: Nelson Lohse
 <section id="contact">
   <h2>Contact Me</h2>
   <p>
-    Feel free to reach out via email: <a href="mailto:nelson@example.com">nelson@example.com</a>
+    Reach out via email: <a href="mailto:Put an email here">example@example.com</a>
   </p>
 </section>
