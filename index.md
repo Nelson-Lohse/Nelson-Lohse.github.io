@@ -67,7 +67,6 @@ title: Nelson Lohse
       Narrative 3
     </p>
     <!-- Add more narratives as needed -->
-  </div>
 </section>
 
 <!-- Professional Self-Assessment Section -->
