@@ -77,6 +77,26 @@ title: Nelson Lohse
   <h4>Database Design & Integration</h4>
   <p>The most significant enhancement was integrating MongoDB to replace in-memory data lists with persistent collections. Each record was structured and validated before insertion, supporting full CRUD operations. Implementing database connections, query handling, and collection design deepened my understanding of modern database practices, including how to maintain data consistency, ensure scalability, and support future enhancements.</p>
 
+  <p>For example, each animal record is stored in MongoDB as a structured JSON document:</p>
+  <pre><code class="language-json">
+{
+  {
+  "_id": {"$oid": "68d1e214bb9cbf8bd83fbefa"},
+  "name": "Daisy",
+  "breed": "Beagle",
+  "gender": "Female",
+  "age": 3,
+  "weight": 45,
+  "acquisitionDate": {"$date": "2022-07-18T05:00:00.000Z"},
+  "acquisitionLocation": "Shelter F",
+  "trainingStatus": "Trained",
+  "reserved": false,
+  "inServiceLocation": "Canada",
+  "_class": "com.example.rescueanimal.model.Dog"
+  }
+}
+  </code></pre>
+
   <p>Enhancing this artifact reinforced my ability to integrate multiple technologies into a cohesive full-stack solution. A particularly challenging aspect was learning HTML and CSS to effectively build and style the Angular frontend. Balancing backend logic with frontend presentation taught me the importance of visual design, usability, and attention to detail in software development. These experiences, combined with modular software design, database integration, and algorithmic improvements, prepared me to approach real-world software development challenges with confidence and professionalism.</p>
 </section>
 
