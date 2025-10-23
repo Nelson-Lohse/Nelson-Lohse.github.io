@@ -57,7 +57,7 @@ title: Nelson Lohse
 </section>
 
 <!-- Course Narratives Section -->
-<section id="narrative">
+<section id="narratives">
   <h2>Narrative</h2>
 
   <h3>Artifact Overview</h3>
