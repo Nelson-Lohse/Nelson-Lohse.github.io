@@ -28,7 +28,7 @@ title: Nelson Lohse
       <div class="project-info">
         <h3>Grazioso</h3>
         <p>
-          The artifact I selected is the Rescue Animal project, originally developed in an earlier course as a set of Java files for managing animal data. The initial version relied entirely on in-memory lists to store records, which limited scalability and data persistence. 
+          The artifact I selected is titled Grazioso and served as a rescue animal management solution. It was originally developed in an earlier course as a set of Java files for managing animal data. The initial version relied entirely on in-memory lists to store records, which limited scalability and data persistence. 
         </p>
         <div class="video-container">
           <iframe width="100%" height="315" src="https://www.youtube.com/embed/Eh_z3YlYzRk" title="Grazioso Demo Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -43,7 +43,7 @@ title: Nelson Lohse
       <div class="project-info">
         <h3>RescueAnimals</h3>
         <p>
-          Improved version of Grazioso with enhanced features, better modularity, and optimized performance. Includes advanced filtering, search functionality, and a refined user interface for a more efficient and user-friendly experience.
+          The Rescue Animal project is an improved version of Grazioso with enhanced features, better modularity, and optimized performance. Including advanced filtering, persistent data, and a refined user interface for a more efficient and user-friendly experience.
         </p>
         <div class="video-container">
           <iframe width="100%" height="315" src="https://www.youtube.com/embed/kBs4zKpciL8" title="Rescue Animal Demo Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
