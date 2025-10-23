@@ -11,6 +11,7 @@
   margin-bottom: 40px;                   /* remove default margins */
   width: 100%;                 /* full viewport width */
   box-sizing: border-box;      /* ensures padding/margin don't shrink it */
+  margin-top: 40px;
 }
 
 .hero h1 {
