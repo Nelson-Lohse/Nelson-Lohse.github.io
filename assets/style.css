@@ -8,7 +8,7 @@
   background: linear-gradient(135deg, #4e54c8, #8f94fb);
   color: white;
   padding: 0;                  /* remove any side padding */
-  margin: 0;                   /* remove default margins */
+  margin-bottom: 40px;                   /* remove default margins */
   width: 100%;                 /* full viewport width */
   box-sizing: border-box;      /* ensures padding/margin don't shrink it */
 }
