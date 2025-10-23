@@ -38,7 +38,7 @@ title: Nelson Lohse
       </div>
     </div>
 
-    <!-- Project 2: RescueAnimals -->
+    <!-- Project 2: Rescue Animals -->
     <div class="project-card">
       <div class="project-info">
         <h3>RescueAnimals</h3>
