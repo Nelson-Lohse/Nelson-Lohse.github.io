@@ -77,23 +77,21 @@ title: Nelson Lohse
   <h4>Database Design & Integration</h4>
   <p>The most significant enhancement was integrating MongoDB to replace in-memory data lists with persistent collections. Each record was structured and validated before insertion, supporting full CRUD operations. Implementing database connections, query handling, and collection design deepened my understanding of modern database practices, including how to maintain data consistency, ensure scalability, and support future enhancements.</p>
 
-  <p>For example, each animal record is stored in MongoDB as a structured JSON document:</p>
+  <p>Here is an example of a record. Each animal record is stored in MongoDB as a structured JSON document:</p>
   <pre><code class="language-json">
 {
-  {
-  "_id": {"$oid": "68d1e214bb9cbf8bd83fbefa"},
-  "name": "Daisy",
-  "breed": "Beagle",
-  "gender": "Female",
-  "age": 3,
-  "weight": 45,
-  "acquisitionDate": {"$date": "2022-07-18T05:00:00.000Z"},
-  "acquisitionLocation": "Shelter F",
-  "trainingStatus": "Trained",
-  "reserved": false,
-  "inServiceLocation": "Canada",
+  "_id": ObjectId('68d1e214bb9cbf8bd83fbefa')
+  "name": "Daisy"
+  "breed": "Beagle"
+  "gender": "Female"
+  "age": 3
+  "weight": 45
+  "acquisitionDate": 2022-07-18T05:00:00.000+00:00
+  "acquisitionLocation": "Shelter F"
+  "trainingStatus": "Trained"
+  "reserved": false
+  "inServiceLocation": "Canada"
   "_class": "com.example.rescueanimal.model.Dog"
-  }
 }
   </code></pre>
 
