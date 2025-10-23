@@ -129,6 +129,15 @@ sortBy(column: string) {
   "_class": "com.example.rescueanimal.model.Dog"
 }
   </code></pre>
+  <p>Here is an example of a backend operation that is separated from database logic. Adding a new dog is handled in a dedicated controller method, which delegates to the service layer:</p>
+
+<pre><code class="language-java">
+// POST add a new dog
+@PostMapping
+public Dog addDog(@RequestBody Dog dog) {
+    return dogService.addDog(dog);
+}
+</code></pre>
 
   <p>Enhancing this artifact reinforced my ability to integrate multiple technologies into a cohesive full-stack solution. A particularly challenging aspect was learning HTML and CSS to effectively build and style the Angular frontend. Balancing backend logic with frontend presentation taught me the importance of visual design, usability, and attention to detail in software development. These experiences, combined with modular software design, database integration, and algorithmic improvements, prepared me to approach real-world software development challenges with confidence and professionalism.</p>
 </section>
