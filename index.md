@@ -57,18 +57,27 @@ title: Nelson Lohse
 </section>
 
 <!-- Course Narratives Section -->
-<section id="narratives">
-  <h2>Course Narratives</h2>
-    <p>
-      Narrative 1
-    </p>
-    <p>
-      Narrative 2
-    </p>
-    <p>
-      Narrative 3
-    </p>
-    <!-- Add more narratives as needed -->
+<section id="narrative">
+  <h2>Narrative</h2>
+
+  <h3>Artifact Overview</h3>
+  <p>The original artifact for this enhancement was the Rescue Animal Management System, a set of Java files created in the IT-145 course. It handled basic data entry and display for rescue animals but lacked persistent data storage, a user interface, and a scalable design. For my ePortfolio, I enhanced this project into a professional full-stack web application with a Java backend, Angular frontend, and MongoDB database.</p>
+
+  <h3>Justification for Inclusion</h3>
+  <p>I selected this artifact because it best represents my overall growth as a software developer. Enhancing it allowed me to demonstrate full-stack integration, modular architecture, data validation, and algorithmic efficiency. The project evolved from a simple command-line tool into an organized, user-friendly system with structured data handling and validation, reflecting my ability to design scalable and maintainable applications.</p>
+
+  <h3>Enhancement Reflections</h3>
+
+  <h4>Software Design & Architecture</h4>
+  <p>This enhancement focused on transforming the original linear Java code into a modular architecture. I created separate backend services and Angular components that improved readability, maintainability, and scalability. The process reinforced the importance of separation of concerns and structured file organization.</p>
+
+  <h4>Algorithms & Data Structures</h4>
+  <p>I implemented client-side sorting and filtering algorithms for displaying rescue animal data. These enhancements improved efficiency and user interaction by reducing backend load while ensuring data consistency. This process strengthened my understanding of how algorithmic principles apply to real-world interfaces and performance optimization.</p>
+
+  <h4>Database Design & Integration</h4>
+  <p>The most impactful enhancement was integrating MongoDB to replace in-memory data lists with persistent collections. Each record was structured and validated before insertion, supporting full CRUD functionality. This development helped me learn modern database design, connection handling, and backend data management in a full-stack environment.</p>
+
+  <p>Through this enhancement process, I learned to merge front-end usability with backend structure and database persistence. The challenges—especially connecting Angular to Java and MongoDB—developed my problem-solving skills and solidified my confidence as a full-stack developer.</p>
 </section>
 
 <!-- Professional Self-Assessment Section -->
