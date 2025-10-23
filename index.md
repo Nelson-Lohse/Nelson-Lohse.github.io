@@ -10,7 +10,7 @@ title: Nelson Lohse
   <div class="hero-content">
     <h1>Hello, I’m Nelson Lohse</h1>
     <h2>Software Engineer</h2>
-    <p>Building clean, efficient solutions with C++, Python, Java and more.</p>
+    <p>Building solutions with C++, Python, Java and more.</p>
     <div class="hero-buttons">
       <a href="#projects" class="btn">View My Work</a>
       <a href="#contact" class="btn btn-secondary">Contact Me</a>
@@ -83,18 +83,29 @@ title: Nelson Lohse
 <!-- Professional Self-Assessment Section -->
 <section id="self-assessment">
   <h2>Professional Self-Assessment</h2>
+
   <p>
-    Completing the Computer Science program and developing this ePortfolio has strengthened my skills in software engineering, data structures and algorithms, database management, and security. Through projects in Python, C++, and Java, I’ve learned to design efficient solutions, collaborate effectively in team environments, and communicate technical concepts to stakeholders. For example, in my capstone project, I created a full-stack web application where I implemented backend logic. These experiences have prepared me to enter the computer science field with confidence and competence.
+    Completing the Computer Science program and developing this ePortfolio has allowed me to reflect on my technical growth and professional development. Throughout the program, I built a strong foundation in software engineering, data structures and algorithms, databases, and security. This ePortfolio highlights that growth through the enhancement of a single core artifact—the Rescue Animal project—which evolved from a simple Java console program into a full-stack web application built with Java Spring Boot, Angular, and MongoDB.
   </p>
+
   <p>
-    My ePortfolio showcases a range of technical artifacts, from algorithmic problem-solving examples to database-driven applications, demonstrating my ability to integrate knowledge across domains. Each project highlights not only technical skills but also professional qualities like attention to detail, organization, and adaptability. By reviewing my portfolio, potential employers can see a clear representation of my strengths, professional goals, and commitment to continuous growth in computer science.
+    This transformation showcases my ability to apply modern software engineering principles and demonstrates how I can design scalable, maintainable systems. The enhanced project introduced modular design, database integration, and client-side interaction through structured input validation and persistent data management. These updates reflect my ability to design efficient data structures, apply algorithmic problem-solving, and integrate technologies into a cohesive solution that meets professional standards.
+  </p>
+
+  <p>
+    Although most of my work was individual, I gained valuable experience using Git and GitHub, where I practiced version control, branching strategies, and clear commit documentation. I also learned about Scrum methodology and the importance of teamwork within an agile development environment. Understanding how roles such as product owner, scrum master, and developers collaborate to plan, prioritize, and deliver software helped me better structure my own workflow and appreciate how communication, organization, and translating user needs into technical requirements are critical in professional software development.
+  </p>
+
+  <p>
+    Creating this ePortfolio helped me showcase not only my technical skills but also my ability to document, organize, and present my work professionally. The Rescue Animal artifact serves as the centerpiece, representing how I can take an existing system and enhance it using modern technologies, good design principles, and efficient data handling. Together, these experiences have prepared me to enter the computer science field with confidence in my ability to deliver effective, maintainable, and scalable solutions that meet real-world needs.
   </p>
 </section>
+
 
 <!-- Contact Section -->
 <section id="contact">
   <h2>Contact Me</h2>
   <p>
-    Reach out via email: <a href="mailto:Put an email here">example@example.com</a>
+    Reach out via email: <a href="mailto:nelson.lohse@snhu.edu">nelson.lohse@snhu.edu</a>
   </p>
 </section>
