@@ -82,7 +82,7 @@ section h2 {
   padding: 60px 20px;
   background-color: #f5f5f5; /* subtle contrast from hero section */
   color: #333;
-  text-align: center;
+  text-align: left;
   max-width: 900px;
   margin: 0 auto;
 }
