@@ -31,11 +31,11 @@ title: Nelson Lohse
   </p>
 
   <p>
-    Although most of my work was individual, I gained valuable experience using Git and GitHub, where I practiced version control, branching strategies, and clear commit documentation. I also learned about Scrum methodology and the importance of teamwork within an agile development environment. Understanding how roles such as product owner, scrum master, and developers collaborate to plan, prioritize, and deliver software helped me better structure my own workflow and appreciate how communication, organization, and translating user needs into technical requirements are critical in professional software development.
+    Although most of my work was individual, throughout the program I gained valuable experience using Git and GitHub, where I practiced version control, branching strategies, and clear commit documentation. I also learned about Scrum methodology and the importance of teamwork within an agile development environment. Understanding how roles such as product owner, scrum master, and developers collaborate to plan, prioritize, and deliver software helped me better structure my own workflow and appreciate how communication, organization, and translating user needs into technical requirements are critical in professional software development.
   </p>
 
   <p>
-    Creating this ePortfolio helped me showcase not only my technical skills but also my ability to develop, organize, and present my work professionally. The Rescue Animal artifact serves as the centerpiece, representing how I can take an existing system and enhance it using modern technologies, good design principles, and efficient data handling. Together, these experiences have prepared me to enter the computer science field with confidence in my ability to deliver effective, maintainable, and scalable solutions that meet real-world needs.
+    Creating this ePortfolio helped me showcase not only my technical skills but also my ability to develop, organize, and present my work professionally. The Rescue Animal artifact serves as the centerpiece, representing how I can take an existing system and enhance it using modern technologies, good design principles, and efficient data handling. These experiences have prepared me to enter the computer science field with confidence in my ability to deliver effective, maintainable, and scalable solutions that meet real-world needs.
   </p>
 </section>
 
