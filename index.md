@@ -74,6 +74,41 @@ title: Nelson Lohse
   <h4>Algorithms & Data Structures</h4>
   <p>I implemented client-side sorting and filtering algorithms for displaying rescue animal data efficiently. These enhancements enhance the interface's responsiveness and facilitate user navigation of the data. Developing these features strengthened my understanding of applying algorithmic principles in real-world systems, particularly how data structures and efficient retrieval methods can optimize both performance and user experience.</p>
 
+  <p>I implemented a client-side sorting method in Angular to dynamically sort the dog data table based on column type. Here is an example of the method demonstrating my ability to organize data:</p>
+
+<pre><code class="language-typescript">
+sortBy(column: string) {
+  if (this.sortColumn === column) {
+    // Toggle sort direction if same column clicked
+    this.sortDirection = this.sortDirection === 'asc' ? 'desc' : 'asc';
+  } else {
+    // Set new sort column and default to ascending
+    this.sortColumn = column;
+    this.sortDirection = 'asc';
+  }
+
+  // Sort dogs array based on column type
+  this.dogs.sort((a, b) => {
+    const valA = a[column as keyof Dog];
+    const valB = b[column as keyof Dog];
+
+    if (typeof valA === 'number' && typeof valB === 'number') {
+      return this.sortDirection === 'asc' ? valA - valB : valB - valA;
+    }
+
+    if (typeof valA === 'boolean' && typeof valB === 'boolean') {
+      return this.sortDirection === 'asc' ? Number(valA) - Number(valB) : Number(valB) - Number(valA);
+    }
+
+    if (typeof valA === 'string' && typeof valB === 'string') {
+      return this.sortDirection === 'asc' ? valA.localeCompare(valB) : valB.localeCompare(valA);
+    }
+
+    return 0;
+  });
+}
+</code></pre>
+
   <h4>Database Design & Integration</h4>
   <p>The most significant enhancement was integrating MongoDB to replace in-memory data lists with persistent collections. Each record was structured and validated before insertion, supporting full CRUD operations. Implementing database connections, query handling, and collection design deepened my understanding of modern database practices, including how to maintain data consistency, ensure scalability, and support future enhancements.</p>
 
