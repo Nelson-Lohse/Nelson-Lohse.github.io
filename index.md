@@ -85,7 +85,7 @@ title: Nelson Lohse
   <h2>Professional Self-Assessment</h2>
 
   <p>
-    Completing the Computer Science program and developing this ePortfolio has allowed me to reflect on my technical growth and professional development. Throughout the program, I built a strong foundation in software engineering, data structures and algorithms, databases, and security. This ePortfolio highlights that growth through the enhancement of a single core artifact—the Rescue Animal project—which evolved from a simple Java console program into a full-stack web application built with Java Spring Boot, Angular, and MongoDB.
+    Completing the Computer Science program and developing this ePortfolio has allowed me to reflect on my technical growth and professional development. Throughout the program, I built a strong foundation in software engineering, data structures and algorithms, databases, and security. This ePortfolio highlights that growth through the enhancement of a single core artifact, the Rescue Animal project, which evolved from a simple Java console program into a full-stack web application built with Java Spring Boot, Angular, and MongoDB.
   </p>
 
   <p>
