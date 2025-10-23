@@ -18,6 +18,27 @@ title: Nelson Lohse
   </div>
 </div>
 
+<!-- Professional Self-Assessment Section -->
+<section id="self-assessment">
+  <h2>Professional Self-Assessment</h2>
+
+  <p>
+    Completing the Computer Science program and developing this ePortfolio has allowed me to reflect on my technical growth and professional development. Throughout the program, I built a strong foundation in software engineering, data structures and algorithms, databases, and security. This ePortfolio highlights that growth through the enhancement of a single core artifact, the Rescue Animal project, which evolved from a simple Java console program into a full-stack web application built with Java Spring Boot, Angular, and MongoDB.
+  </p>
+
+  <p>
+    This transformation showcases my ability to apply modern software engineering principles and demonstrates how I can design scalable, maintainable systems. The enhanced project introduced modular design, database integration, and client-side interaction through structured input validation and persistent data management. These updates reflect my ability to design efficient data structures, apply algorithmic problem-solving, and integrate technologies into a cohesive solution that meets professional standards.
+  </p>
+
+  <p>
+    Although most of my work was individual, I gained valuable experience using Git and GitHub, where I practiced version control, branching strategies, and clear commit documentation. I also learned about Scrum methodology and the importance of teamwork within an agile development environment. Understanding how roles such as product owner, scrum master, and developers collaborate to plan, prioritize, and deliver software helped me better structure my own workflow and appreciate how communication, organization, and translating user needs into technical requirements are critical in professional software development.
+  </p>
+
+  <p>
+    Creating this ePortfolio helped me showcase not only my technical skills but also my ability to develop, organize, and present my work professionally. The Rescue Animal artifact serves as the centerpiece, representing how I can take an existing system and enhance it using modern technologies, good design principles, and efficient data handling. Together, these experiences have prepared me to enter the computer science field with confidence in my ability to deliver effective, maintainable, and scalable solutions that meet real-world needs.
+  </p>
+</section>
+
 <!-- Projects Section -->
 <section id="projects">
   <h2>My Projects</h2>
@@ -159,7 +180,7 @@ public Dog addDog(@RequestBody Dog dog) {
   </p>
 
   <p>
-    Creating this ePortfolio helped me showcase not only my technical skills but also my ability to document, organize, and present my work professionally. The Rescue Animal artifact serves as the centerpiece, representing how I can take an existing system and enhance it using modern technologies, good design principles, and efficient data handling. Together, these experiences have prepared me to enter the computer science field with confidence in my ability to deliver effective, maintainable, and scalable solutions that meet real-world needs.
+    Creating this ePortfolio helped me showcase not only my technical skills but also my ability to develop, organize, and present my work professionally. The Rescue Animal artifact serves as the centerpiece, representing how I can take an existing system and enhance it using modern technologies, good design principles, and efficient data handling. Together, these experiences have prepared me to enter the computer science field with confidence in my ability to deliver effective, maintainable, and scalable solutions that meet real-world needs.
   </p>
 </section>
 
